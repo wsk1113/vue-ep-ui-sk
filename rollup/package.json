@@ -1,0 +1,24 @@
+{
+    "name": "@wsk113/vue-EPui-sk",
+    "version": "0.1.0",
+    "private": false,
+    "description": "基于Element-Plus扩展而成的组件库 / a Vue3+ElementPlus based highly popular UI library",
+    "main": "bundle.es.js",
+    "repository": {
+        "type": "github",
+        "url": ""
+    },
+    "keywords": [
+        "epmenu",
+        "eptable",
+        "mypageheader",
+        "btngroup",
+        "epdialog"
+    ],
+    "author": "@wsk113",
+    "license": "ISC",
+    "peerDependencies": {
+        "element-plus": "^2.0.0",
+        "vue": "^3.0.0"
+    }
+}

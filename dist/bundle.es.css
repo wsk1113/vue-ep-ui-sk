@@ -1,0 +1,19 @@
+.top[data-v-11cde92f] {
+  display: flex;
+  justify-content: flex-end; }
+  .top[data-v-11cde92f] .opBtn[data-v-11cde92f] {
+    width: 100px; }
+
+.card[data-v-4058cc17] {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px; }
+
+.middle[data-v-4058cc17] {
+  margin: 10px 0; }
+
+.bottom[data-v-4058cc17] {
+  padding: 5px; }
+
+.wrapper[data-v-4058cc17] {
+  width: 100%; }

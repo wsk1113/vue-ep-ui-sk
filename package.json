@@ -1,0 +1,39 @@
+{
+  "name": "@wsk1113/vue-EPui-sk",
+  "version": "0.1.0",
+  "description": "基于Element-Plus扩展而成的组件库 / a Vue3+ElementPlus based highly popular UI library",
+  "main": "src/main.js",
+  "keywords": [
+    "epmenu",
+    "eptable",
+    "mypageheader",
+    "btngroup",
+    "epdialog"
+  ],
+  "author": "wsk1113",
+  "license": "ISC",
+  "scripts": {
+    "dev": "npx rollup -wc rollup.config.dev.js",
+    "build": "rimraf dist && npx rollup -c rollup/rollup.config.js",
+    "gpush": "git add . && git commit -m temp && git push -u origin master",
+    "publish": "cd dist && npm publish --access=public",
+    "release": "npm run build && npm run publish"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "node-sass": "^9.0.0",
+    "rimraf": "^5.0.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.23",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "peerDependencies": {
+    "element-plus": "^2.0.0",
+    "vue": "^3.0.0"
+  }
+}

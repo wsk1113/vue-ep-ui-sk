@@ -1,0 +1,69 @@
+[
+    {
+        "name":"数据看板",
+        "path":"/data",
+        "iconName":"PieChart"
+    },
+
+    {
+        "name":"影片管理",
+        "iconName":"Film",
+        "submenu":[
+            {
+                "name":"正在热映",
+                "iconName":"VideoCamera",
+                "path":"/film/playing"
+            },
+            {
+                "name":"即将上映",
+                "iconName":"Loading",
+                "path":"/film/coming"
+            }
+        ]
+    },
+
+    {
+        "name":"影院管理",
+        "iconName":"PictureFilled",
+        "submenu":[
+            
+            {
+                "name":"热门城市",
+                "iconName":"Star",
+                "submenu":[
+                    {
+                        "name":"北京",
+                        "path":"/cinema/hot"
+                    },
+                    {
+                        "name":"上海",
+                        "path":"/cinema/hot"
+                    },
+                    {
+                        "name":"广州",
+                        "path":"/cinema/hot"
+                    }
+                ]
+            },
+
+            {
+                "name":"所有城市",
+                "iconName":"Location",
+                "path":"/cinema/all"
+            }
+        ]
+    },
+
+    {
+        "name":"用户管理",
+        "iconName":"User",
+        "path":"/user"
+    },
+
+    {
+        "name":"案例管理",
+        "iconName":"Grid",
+        "path":"/demos"
+    }
+    
+]
